@@ -34,7 +34,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
       )
       setSearch('')
       setExercises(searchedExercises)
-      window.scrollTo({ top: 1700, behavior: 'smooth' })
+      window.scrollTo({ top: 1750, behavior: 'smooth' })
     }
   }
 
@@ -42,7 +42,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
     <Stack alignItems="center" mt="30px" justifyContent="center" p="20px">
       <Typography
         fontWeight={700}
-        sx={{ fontSize: { lg: '44px', xs: '30px' } }}
+        sx={{ fontSize: { lg: '44px', xs: '30px' }, marginTop: { xs: '40px' } }}
         mb="50px"
         textAlign="center">
         Awesome Exercises You <br /> Should Know
@@ -55,7 +55,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
               border: 'none',
               borderRadius: '4px',
             },
-            width: { lg: '800px', xs: '400px' },
+            width: { lg: '800px', xs: '320px' },
             backgroundColor: '#fff',
             borderRadius: '40px',
           }}
